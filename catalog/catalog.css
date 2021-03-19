@@ -1,0 +1,55 @@
+#input-block
+{
+    display: inline-block;
+    min-width: 400px;
+    height: 125px;
+    text-align: center;
+    border: 1px solid black;
+    padding: 20px;
+    margin-top: calc(22.5% - 100px);
+    margin-left: 3%;
+    position: absolute;
+}
+
+#input-block input:first-child
+{
+    margin-bottom: 20px;
+}
+
+#result-block
+{
+    display: inline-block;
+    width: 640px;
+    margin-left: 470px;
+    position: absolute;
+    border: 1px solid black;
+    padding: 0 20px 20px 20px;
+    margin-top: 20px;
+    text-align: center;
+    height: 92vh;
+    overflow: auto;
+}
+
+.product-img
+{
+    width: 550px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px 0;
+}
+
+.like-icon
+{
+    width: 30px;
+    display: block;
+    position: absolute;
+    margin-top: -40px;
+    margin-left: 10px;
+    z-index: 10;
+}
+
+body
+{
+    width: 100vw;
+    height: 100vh;
+}

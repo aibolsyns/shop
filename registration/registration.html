@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../bootstrap.css">
+    <link rel="stylesheet" href="registration.css">
+    <title>Registration</title>
+</head>
+<body>
+    <div id="login-block" style="visibility: hidden;">
+        <h4 class="form-label border-bottom">Login</h4>
+        <br>
+        <form>
+            <input type="email" name="email" id="email" class="form-text form-control-sm input-group" required placeholder="Email">
+            <br>
+            <input type="password" name="password" id="password" class="form-text form-control-sm input-group" required placeholder="Password">
+            <br>
+        </form>
+        <button class="submit-button" onclick="checkLogin()">Login</button>
+    </div>
+    <div id="registration-block">
+        <h4 class="form-label border-bottom">Registration</h4>
+        <br>
+        <form>
+            <input type="email" name="reg-email" id="reg-email" class="form-text form-control-sm input-group" required placeholder="Email">
+            <br>
+            <input type="text" name="reg-username" id="reg-username" class="form-text form-control-sm input-group" required placeholder="Username">
+            <br>
+            <input type="password" name="reg-password" id="reg-password" class="form-text form-control-sm input-group" required placeholder="Password">
+            <br>
+            <input type="password" name="reg-repassword" id="reg-repassword" class="form-text form-control-sm input-group" required placeholder="Repeat Password">
+        </form>
+        <button class="submit-button" onclick="check()">Registration</button>
+    </div>
+    <button id="login-reg-swapper">Login</button>
+    <script src="registration.js"></script>
+</body>
+</html>

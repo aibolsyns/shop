@@ -1,0 +1,25 @@
+#product-block
+{
+    display: inline-block;
+    position: relative;
+    border: 1px solid black;
+    width: 600px;
+    height: 400px;
+    text-align: center;
+    margin-top: calc(22.5% - 150px);
+    margin-left: calc(50% - 300px);
+}
+
+#product-image1, #product-image2
+{
+    width: 200px;
+    display: inline-block;
+}
+
+#info
+{
+    clear: both;
+    display: inline-block;
+    text-align: left;
+    margin-bottom: 20px;
+}

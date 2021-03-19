@@ -1,0 +1,24 @@
+.container
+{
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    border: 1px solid black;
+    text-align: center;     
+    margin: 10px;
+}
+
+.product-img
+{
+    width: 240px;
+}
+
+.like-icon 
+{
+    width: 50px;
+}
+
+.product-text
+{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

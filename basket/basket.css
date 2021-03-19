@@ -1,0 +1,12 @@
+#main-block
+{
+    margin: 5% auto;
+    width: 80vw;
+    text-align: center;
+}
+
+.product
+{
+    border: 1px solid black;
+    margin-bottom: 20px;
+}

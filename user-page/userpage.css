@@ -1,0 +1,41 @@
+body
+{
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+#user-info
+{
+    display: inline-block;
+    width: 300px;
+    height: 400px;
+    border: 1px solid black;
+    padding: 0 20px;
+    position: absolute;
+    margin-top: calc(22.5% - 200px);
+    margin-left: 20px;
+    overflow:auto;
+    border-radius: 0.5rem;
+}
+
+#favorite-items
+{
+    position: absolute;
+    display: inline-block;
+    margin-top: calc(22.5% - 200px);
+    margin-left: 360px;
+    border: 1px solid black;
+    width: 600px;
+    padding-bottom: 10px;
+    border-radius: 0.5rem;
+    text-align: center;
+}
+
+.product-img
+{
+    width: 550px;
+    display: inline-block;
+    border: 1px solid black;
+    margin: 5px 0;
+}
